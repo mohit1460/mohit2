@@ -65,6 +65,7 @@ class Mythread(threading.Thread):
 
     def run(self):
          print(math.factorial(self.v))
+        time.sleep(5)
 
 thread1=Mythread(5)
 thread1.start()
