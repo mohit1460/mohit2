@@ -54,14 +54,6 @@ try:
 except IndexError:
     print("index out of bounds")
 
-
-
-
-
-
-
-
-
 #question6
 i=0
 class Agetosmall(Exception):
